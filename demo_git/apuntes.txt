@@ -1,1 +1,45 @@
 Apuntes GIT
+  443  mkdir sis257_mmv
+  444  cd sis257_mmv/| cd ..
+  445  ls
+  446  ls -la
+  447  cd sis257_mmv/
+  448  pwd
+  449  touch README.md
+  450  ls -la
+  451  ls
+  452  echo 'SIS257' > README.md
+  453  cad README.md
+  454  cat README.md
+  455  git init
+  456  git status
+  457  git add .
+  458  git status
+  459  git commit -m "Creacion repositorio SIS257 con archivo README"
+  460  git status
+  461  cat README.md
+  462  git checkout -b demo_git
+  463  ls
+  464  echo ' 2/2025' >> README.md
+  465  cat README.md
+  466  nano README.md
+  467  mkdir demo_git
+  468  ls
+  469  ls -la
+  470  echo  'Apuntes GIT' > demo_git/apuntes.txt
+  471  git status
+  472  git add .
+  473  git commit -m 'feat: Se agrega apuntes.txt en demo_git'
+  474  ls
+  475  cat README.md
+  476  git switch main
+  477  cat README.md
+  478  git branch demo_git
+  479  git switch demo_git
+  480  git switch main
+  481  git branch -M main
+  482  git remote add origin https://github.com/MarcelaMV2/sis257_2025_2.git
+  483  git push -u origin main
+  484  git merge demo_git
+  485  git push
+  486  history
